@@ -1,0 +1,153 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("pii.avif");
+    background-size: cover;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+ } 
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  a {
+    color: #0077c0;
+  }
+  
+  /* Page layout */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    padding: 20px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav a {
+    background-color: transparent;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #0077c0;
+  }
+  
+  .hero {
+    height: 100vh;
+    background-image: url("pii.avif");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .section {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 60px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    max-width: 300px;
+    margin: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px;
+  }
+  
+  .project-card p {
+    margin: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .contact {
+    background-color: #0077c0;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .contact h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .contact a {
+    display: inline-block;
+    background-color: #fff;
+    color: #0077c0;
+  }
